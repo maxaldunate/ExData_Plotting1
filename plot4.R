@@ -31,4 +31,4 @@ plot(hhPower$DateTime, hhPower$Global_reactive_power,
      type = "l", main = "", xlab = "datetime")
 
 dev.off()
-par(mfrpw=oldMfrow)
+par(mfrow = oldMfrow)
